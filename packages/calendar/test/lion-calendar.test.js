@@ -13,7 +13,7 @@ describe('<lion-calendar>', () => {
     localizeTearDown();
   });
 
-  describe('Structure', () => {
+  describe.skip('Structure', () => {
     it('implements BEM structure', async () => {
       const el = await fixture(html`<lion-calendar></lion-calendar>`);
 

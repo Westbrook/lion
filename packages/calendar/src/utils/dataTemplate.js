@@ -1,6 +1,9 @@
 import { html } from '@lion/core';
 import { dayTemplate as defaultDayTemplate } from './dayTemplate.js';
 
+/**
+ * @param {{months: {weeks: {days: import('../../types/day').Day[]}[]}[]}} data
+ */
 export function dataTemplate(
   data,
   { weekdaysShort, weekdays, monthsLabels, dayTemplate = defaultDayTemplate } = {},

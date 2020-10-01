@@ -17,6 +17,11 @@ const defaultMonthLabels = [
 const firstWeekDays = [1, 2, 3, 4, 5, 6, 7];
 const lastDaysOfYear = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
+/**
+ *
+ * @param {import('../../types/day').Day} day
+ * @param {*} param1
+ */
 export function dayTemplate(day, { weekdays, monthsLabels = defaultMonthLabels } = {}) {
   const dayNumber = day.date.getDate();
   const monthName = monthsLabels[day.date.getMonth()];
