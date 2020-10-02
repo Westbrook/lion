@@ -1,5 +1,26 @@
 # Change Log
 
+## 0.3.5
+
+### Patch Changes
+
+- Updated dependencies [d5faa459]
+  - @lion/form-core@0.6.3
+  - @lion/select-rich@0.21.5
+  - @lion/checkbox-group@0.12.1
+  - @lion/fieldset@0.15.1
+  - @lion/input@0.10.1
+  - @lion/input-date@0.8.1
+  - @lion/input-datepicker@0.16.3
+  - @lion/input-email@0.9.1
+  - @lion/input-iban@0.10.1
+  - @lion/input-range@0.5.1
+  - @lion/radio-group@0.12.1
+  - @lion/select@0.8.1
+  - @lion/textarea@0.8.1
+  - @lion/validate-messages@0.3.1
+  - @lion/form@0.7.1
+
 ## 0.3.4
 
 ### Patch Changes

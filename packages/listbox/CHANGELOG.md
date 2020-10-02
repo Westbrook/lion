@@ -1,5 +1,17 @@
 # @lion/listbox
 
+## 0.2.0
+
+### Minor Changes
+
+- d5faa459: Add reset function to listbox and all extentions
+
+### Patch Changes
+
+- d1c6b18c: no cancellation multi mouse click
+- Updated dependencies [d5faa459]
+  - @lion/form-core@0.6.3
+
 ## 0.1.2
 
 ### Patch Changes
